@@ -169,7 +169,7 @@ namespace CollectionsMasterConsoleUI
             Random rng = new Random();
             while (numberList.Count < 50)
             {
-                int randNum = rng.Next(0, 50);
+                int randNum = rng.Next(0, 51);
                 numberList.Add(randNum);
             }
         }
@@ -179,7 +179,7 @@ namespace CollectionsMasterConsoleUI
             Random rng = new Random();
             for (int i = 0; i < numbers.Length; i++)
             {
-                numbers[i] = rng.Next(0, 50); 
+                numbers[i] = rng.Next(0, 51); 
             }
         }        
 
